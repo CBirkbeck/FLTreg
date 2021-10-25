@@ -51,30 +51,30 @@
 
 <div class="main-text">
 <h1 id="a0000000004">3 Cyclotomic fields</h1>
-<p><div class="lem_thmwrapper" id="lem: cyclo poly">
-  <div class="lem_thmheading">
-    <span class="lem_thmcaption">
-    Lemma
+<p><div class="lemma_thmwrapper" id="lemma: cyclo poly">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    lemma
     </span>
-    <span class="lem_thmlabel">3.1</span>
+    <span class="lemma_thmlabel">3.1</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#lem: cyclo poly">#</a>
+    <a class="icon proof" href="sect0003.html#lemma: cyclo poly">#</a>
 
   </div>
   </div>
-  <div class="lem_thmcontent">
+  <div class="lemma_thmcontent">
   <p> For \(n\) any integer, \(\Phi _n\) (the \(n\)-th cyclotomic polynomial) is an irreducible polynomial of degree \(\varphi (n)\) (where \(\varphi \) is Euler’s Totient function). </p>
 
   </div>
 </div> </p>
-<p><div class="thm_thmwrapper" id="thm: ring of ints of cyclo">
-  <div class="thm_thmheading">
-    <span class="thm_thmcaption">
+<p><div class="theorem_thmwrapper" id="theorem: ring of ints of cyclo">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="thm_thmlabel">3.2</span>
+    <span class="theorem_thmlabel">3.2</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#thm: ring of ints of cyclo">#</a>
+    <a class="icon proof" href="sect0003.html#theorem: ring of ints of cyclo">#</a>
     <a class="icon proof" href="sect0003.html#a0000000037"><svg  class="icon icon-cogs "><use xlink:href="symbol-defs.svg#icon-cogs"></use></svg>
 </a>
     <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
@@ -87,9 +87,9 @@
 </button>
         </header>
                 <ul class="uses">
-          <li><a href="sect0002.html#lem: num field disc in terms of norm">Lemma 2.5</a></li>
-          <li><a href="sect0002.html#lem: disc int basis">Lemma 2.9</a></li>
-          <li><a href="sect0002.html#lem: eis crit and alg ints">Lemma 2.10</a></li>
+          <li><a href="sect0002.html#lemma: num field disc in terms of norm">lemma 2.5</a></li>
+          <li><a href="sect0002.html#lemma: disc int basis">lemma 2.9</a></li>
+          <li><a href="sect0002.html#lemma: eis crit and alg ints">lemma 2.10</a></li>
         </ul>
 
       </div>
@@ -97,7 +97,7 @@
 
   </div>
   </div>
-  <div class="thm_thmcontent">
+  <div class="theorem_thmcontent">
   <p>  Let \(\zeta _p\) be a \(p\)-th root of unity for \(p\) an odd prime, let \(\lambda _p=1-\zeta _p\) and \(K=\mathbb {Q}(\zeta _p)\). Then \(\mathcal{O}_K=\mathbb {Z}[\zeta _p]=\mathbb {Z}[\lambda _p]\) moreover </p>
 <div class="displaymath" id="a0000000038">
   \[ \Delta (\{ 1,\zeta _p,\dots ,\zeta _p^{p-2}\} )=\Delta (\{ 1,\lambda _p,\dots ,\lambda _p^{p-2}\} )=(-1)^{\frac{(p-1)}{2}}p^{p-2}. \]
@@ -114,9 +114,9 @@
   </div>
   <div class="proof_content">
   <p>First note \([K:\mathbb {Q}]=p-1\). </p>
-<p>Since \(\zeta _p=1-\lambda _p\) we at once get \(\mathbb {Z}[\zeta _p]=\mathbb {Z}[\lambda _p]\) (just do double inclusion). Next, let \(\alpha _i=\sigma _i(\zeta _p)\) denote the conjugates of \(\zeta _p\), which is the same as the image of \(\zeta _p\) under one of the embeddings \(\sigma _i: \mathbb {Q}(\zeta _p) \to \mathbb {C}\). Now by Proposition \(\ref{lem: disc of prim elt basis}\) we have </p>
+<p>Since \(\zeta _p=1-\lambda _p\) we at once get \(\mathbb {Z}[\zeta _p]=\mathbb {Z}[\lambda _p]\) (just do double inclusion). Next, let \(\alpha _i=\sigma _i(\zeta _p)\) denote the conjugates of \(\zeta _p\), which is the same as the image of \(\zeta _p\) under one of the embeddings \(\sigma _i: \mathbb {Q}(\zeta _p) \to \mathbb {C}\). Now by Proposition \(\ref{lemma: disc of prim elt basis}\) we have </p>
 <span>\begin{align*} \Delta (\{ 1,\zeta _p,\dots ,\zeta _p^{p-2}\} )=\prod _{i < j} (\alpha _i-\alpha _j)^2 & =\prod _{i < j} ((1-\alpha _i)-(1-\alpha _j))^2\\ & =\Delta (\{ 1,\lambda _p,\dots ,\lambda _p^{p-2}\} )\end{align*}</span>
-<p>Now, by Proposition <a href="sect0002.html#lem: num field disc in terms of norm">2.5</a>, we have </p>
+<p>Now, by Proposition <a href="sect0002.html#lemma: num field disc in terms of norm">2.5</a>, we have </p>
 <div class="displaymath" id="a0000000039">
   \[ \Delta (\{ 1,\zeta _p,\cdots ,\zeta _p^{p-2}\} )=(-1)^{\frac{(p-1)(p-2)}{2}}N_{K/\mathbb {Q}}(\Phi _p'(\zeta _p) ) \]
 </div>
@@ -132,22 +132,22 @@
 <div class="displaymath" id="a0000000042">
   \[ N_{K/\mathbb {Q}}(\Phi _p'(\zeta _p) )=\frac{N_{K/\mathbb {Q}}(p)N_{K\mathbb {Q}}(\zeta _p)^{p-1}}{N_{K/\mathbb {Q}}(-\lambda _p)}=(-1)^{p-1}p^{p-2}=p^{p-2} \]
 </div>
-<p>So the last thing we need to prove is that \(\mathcal{O}_K=\mathbb {Z}[\zeta _p]\). From the calculation we just did, the only prime dividing the discriminant is \(p\), therefore Lemma <a href="sect0002.html#lem: disc int basis">2.9</a> tells us the only prime we need to check is \(p\). But from Lemma <a href="sect0002.html#lem: eis crit and alg ints">2.10</a> we know that dividing by \(p\) wont give us any new integral elements, so this must be an integral basis which give the result. </p>
+<p>So the last thing we need to prove is that \(\mathcal{O}_K=\mathbb {Z}[\zeta _p]\). From the calculation we just did, the only prime dividing the discriminant is \(p\), therefore Lemma <a href="sect0002.html#lemma: disc int basis">2.9</a> tells us the only prime we need to check is \(p\). But from Lemma <a href="sect0002.html#lemma: eis crit and alg ints">2.10</a> we know that dividing by \(p\) wont give us any new integral elements, so this must be an integral basis which give the result. </p>
 
   </div>
 </div>
-<p><div class="thm_thmwrapper" id="thm: ring of ints of cyclo field">
-  <div class="thm_thmheading">
-    <span class="thm_thmcaption">
+<p><div class="theorem_thmwrapper" id="theorem: ring of ints of cyclo field">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="thm_thmlabel">3.3</span>
+    <span class="theorem_thmlabel">3.3</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#thm: ring of ints of cyclo field">#</a>
+    <a class="icon proof" href="sect0003.html#theorem: ring of ints of cyclo field">#</a>
 
   </div>
   </div>
-  <div class="thm_thmcontent">
+  <div class="theorem_thmcontent">
   <p> Let \(n\) be a positive integer and \(\zeta _n\) a root of unity. If \(K=\mathbb {Q}(\zeta _n)\) then </p>
 <div class="displaymath" id="a0000000043">
   \[ \mathcal{O}_K=\mathbb {Z}[\zeta _n]. \]
@@ -155,30 +155,30 @@
 
   </div>
 </div> </p>
-<p><div class="lem_thmwrapper" id="lem: alg_int_abs_val_one">
-  <div class="lem_thmheading">
-    <span class="lem_thmcaption">
-    Lemma
+<p><div class="lemma_thmwrapper" id="lemma: alg_int_abs_val_one">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    lemma
     </span>
-    <span class="lem_thmlabel">3.4</span>
+    <span class="lemma_thmlabel">3.4</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#lem: alg_int_abs_val_one">#</a>
+    <a class="icon proof" href="sect0003.html#lemma: alg_int_abs_val_one">#</a>
 
   </div>
   </div>
-  <div class="lem_thmcontent">
+  <div class="lemma_thmcontent">
   <p> Let \(\alpha \) be an algebraic integer all of whose conjugates have absolute value one. Then \(\alpha \) is a root of unity. </p>
 
   </div>
 </div> </p>
-<p><div class="lem_thmwrapper" id="lem: unit lem">
-  <div class="lem_thmheading">
-    <span class="lem_thmcaption">
-    Lemma
+<p><div class="lemma_thmwrapper" id="lemma: unit lemma">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    lemma
     </span>
-    <span class="lem_thmlabel">3.5</span>
+    <span class="lemma_thmlabel">3.5</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#lem: unit lem">#</a>
+    <a class="icon proof" href="sect0003.html#lemma: unit lemma">#</a>
     <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
 </button>
     <div class="modal-container">
@@ -189,7 +189,7 @@
 </button>
         </header>
                 <ul class="uses">
-          <li><a href="sect0003.html#lem: alg_int_abs_val_one">Lemma 3.4</a></li>
+          <li><a href="sect0003.html#lemma: alg_int_abs_val_one">lemma 3.4</a></li>
         </ul>
 
       </div>
@@ -197,23 +197,23 @@
 
   </div>
   </div>
-  <div class="lem_thmcontent">
+  <div class="lemma_thmcontent">
   <p>  Any unit \(u\) in \(\mathbb {Z}[\zeta _p]\) can be written in the form \(\beta \zeta _p^k \) with \(k\) an integer and \(\beta \in \mathbb {R}\). </p>
 
   </div>
 </div> </p>
-<p><div class="lem_thmwrapper" id="lem: fac of p in p_th root">
-  <div class="lem_thmheading">
-    <span class="lem_thmcaption">
-    Lemma
+<p><div class="lemma_thmwrapper" id="lemma: fac of p in p_th root">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    lemma
     </span>
-    <span class="lem_thmlabel">3.6</span>
+    <span class="lemma_thmlabel">3.6</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#lem: fac of p in p_th root">#</a>
+    <a class="icon proof" href="sect0003.html#lemma: fac of p in p_th root">#</a>
 
   </div>
   </div>
-  <div class="lem_thmcontent">
+  <div class="lemma_thmcontent">
   <p> Let \(p\) be a prime and \(n=p^k\). Then </p>
 <div class="displaymath" id="a0000000044">
   \[ p=u(1-\zeta _n)^{\varphi (n)} \]
@@ -222,18 +222,18 @@
 
   </div>
 </div> </p>
-<p><div class="lem_thmwrapper" id="lem: ideals mult to power">
-  <div class="lem_thmheading">
-    <span class="lem_thmcaption">
-    Lemma
+<p><div class="lemma_thmwrapper" id="lemma: ideals mult to power">
+  <div class="lemma_thmheading">
+    <span class="lemma_thmcaption">
+    lemma
     </span>
-    <span class="lem_thmlabel">3.7</span>
+    <span class="lemma_thmlabel">3.7</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#lem: ideals mult to power">#</a>
+    <a class="icon proof" href="sect0003.html#lemma: ideals mult to power">#</a>
 
   </div>
   </div>
-  <div class="lem_thmcontent">
+  <div class="lemma_thmcontent">
   <p> Let \(R\) be a Dedekind domain, \(p\) a prime and \(\mathfrak {a},\mathfrak {b},\mathfrak {c}\) ideals such that </p>
 <div class="displaymath" id="a0000000045">
   \[ \mathfrak {a}\mathfrak {b}=\mathfrak {c}^p \]
@@ -245,14 +245,14 @@
 
   </div>
 </div> </p>
-<p><div class="thm_thmwrapper" id="thm:FLT facts">
-  <div class="thm_thmheading">
-    <span class="thm_thmcaption">
+<p><div class="theorem_thmwrapper" id="theorem:FLT facts">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="thm_thmlabel">3.8</span>
+    <span class="theorem_thmlabel">3.8</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#thm:FLT facts">#</a>
+    <a class="icon proof" href="sect0003.html#theorem:FLT facts">#</a>
     <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
 </button>
     <div class="modal-container">
@@ -263,9 +263,9 @@
 </button>
         </header>
                 <ul class="uses">
-          <li><a href="sect0003.html#lem: unit lem">Lemma 3.5</a></li>
-          <li><a href="sect0003.html#lem: fac of p in p_th root">Lemma 3.6</a></li>
-          <li><a href="sect0003.html#lem: ideals mult to power">Lemma 3.7</a></li>
+          <li><a href="sect0003.html#lemma: unit lemma">lemma 3.5</a></li>
+          <li><a href="sect0003.html#lemma: fac of p in p_th root">lemma 3.6</a></li>
+          <li><a href="sect0003.html#lemma: ideals mult to power">lemma 3.7</a></li>
         </ul>
 
       </div>
@@ -273,7 +273,7 @@
 
   </div>
   </div>
-  <div class="thm_thmcontent">
+  <div class="theorem_thmcontent">
   
 <p>Let \(p \geq 5\) be an prime number, \(\zeta _p\) a \(p\)-th root of unity and \(K=\mathbb {Q}(\zeta _p)\). Assume that we have \(x,y,z \in \mathbb {Z}\) with \(\gcd (xyz,p)=1\) and such that </p>
 <div class="displaymath" id="a0000000047">
@@ -328,10 +328,10 @@
   </div>
 </div>
 <p>\(\), then \(\)3z ≡0 p\(\). But since \(p {\gt}3\) this means \(p |z\) but this contradicts \(\gcd (xyz,p)=1\). Now, if \(x \equiv y \pmod p\) then \(x \not\equiv -z \pmod p\) we can relabel \(y,z\) so that wlog \(x \not\equiv y\) (this uses that \(p\) is odd). </p>
-<p>Lemma <a href="sect0003.html#lem: fac of p in p_th root">3.6</a> gives that \(u\) is a unit. So all that needs to be proved is that the ideals are coprime. Assume not, then for some \(i \neq j\) we have some prime ideal \(\mathfrak {p}\) dividing by \((x+y\zeta _p^i)\) and \((x+y\zeta _p^j)\). It must then also divide their sum and their difference, so we must have \(\mathfrak {p}| (1-\zeta _p)\) or \(\mathfrak {p}| y\). Similarly, \(\mathfrak {p}\) divides \(\zeta _p^j(x+y\zeta _p^i)-\zeta _p^i(x+y\zeta _p^j)\) so \(\mathfrak {p}\) divides \(x\) or \((1-\zeta _p)\). We can’t have \(\mathfrak {p}\) dividing \(x,y\) since they are coprime, therefore \(\mathfrak {p}|(1-\zeta _p)\). But from lectures we know that since \((1-\zeta _p)\) has norm \(p\) it must be a prime ideal, so \(\mathfrak {p}=(1-\zeta _p)\). Now, note that \(x+y \equiv x+y\zeta _+p^i \equiv 0 \mod \mathfrak {p}\). But since \(x,y \in \mathbb {Z}\) this means we would have \(x+y \equiv 0 \pmod p\), which implies \(z^p \equiv 0 \pmod p\) which contradicts our assumptions. </p>
+<p>Lemma <a href="sect0003.html#lemma: fac of p in p_th root">3.6</a> gives that \(u\) is a unit. So all that needs to be proved is that the ideals are coprime. Assume not, then for some \(i \neq j\) we have some prime ideal \(\mathfrak {p}\) dividing by \((x+y\zeta _p^i)\) and \((x+y\zeta _p^j)\). It must then also divide their sum and their difference, so we must have \(\mathfrak {p}| (1-\zeta _p)\) or \(\mathfrak {p}| y\). Similarly, \(\mathfrak {p}\) divides \(\zeta _p^j(x+y\zeta _p^i)-\zeta _p^i(x+y\zeta _p^j)\) so \(\mathfrak {p}\) divides \(x\) or \((1-\zeta _p)\). We can’t have \(\mathfrak {p}\) dividing \(x,y\) since they are coprime, therefore \(\mathfrak {p}|(1-\zeta _p)\). But from lectures we know that since \((1-\zeta _p)\) has norm \(p\) it must be a prime ideal, so \(\mathfrak {p}=(1-\zeta _p)\). Now, note that \(x+y \equiv x+y\zeta _+p^i \equiv 0 \mod \mathfrak {p}\). But since \(x,y \in \mathbb {Z}\) this means we would have \(x+y \equiv 0 \pmod p\), which implies \(z^p \equiv 0 \pmod p\) which contradicts our assumptions. </p>
 <p>This is easy. Just use \((x+y)^p \equiv x^p + y^p \pmod p\) and that \(\zeta _p\) is a \(p\)-th root of unity. </p>
 <p>Looking at \(\alpha =a_0+a_1\zeta _p+\cdots +a_{p-1}\zeta _p^{p-1}\), if one of the \(a_i\)’s is zero and \(\alpha /n \in \mathbb {Z}[\zeta _p]\), then \(\alpha /n=\sum _i a_i/n \zeta _p^i\). Now, as \(\alpha /n \in \mathbb {Z}[\zeta _p]\), pick the basis of \(\mathbb {Z}[\zeta _p]\) which does not contain \(\zeta _p\) (which is possible as any subset of \(\{ 1,\zeta _p,\dots ,\zeta _p^{p-1}\} \) with \(p-1\) elements forms a basis of \(\mathbb {Z}[\zeta _p]\).]). Then \(\alpha =\sum _i b_i \zeta _p^i\) where \(b_i \in \mathbb {Z}\). Therefore comparing coefficients, we get the result. </p>
-<p>Using lemma <a href="sect0003.html#lem: unit lem">3.5</a> we have \((x+y\zeta _p^i) =\beta \zeta _p^k \alpha ^p\) which is equivalent to \(\beta \zeta _p^k a \pmod p\) with \(a\) and integer (using part \(3\)). Now, if we consider the complex conjugate we have \(\overline{(x+y\zeta _p^i) }\equiv \beta \zeta _p^{-k}a \pmod p\). Looking at \((x+y\zeta _p^i)-\zeta _p^{2k}\overline{(x+y\zeta _p^i) }\) then gives the result. </p>
+<p>Using lemma <a href="sect0003.html#lemma: unit lemma">3.5</a> we have \((x+y\zeta _p^i) =\beta \zeta _p^k \alpha ^p\) which is equivalent to \(\beta \zeta _p^k a \pmod p\) with \(a\) and integer (using part \(3\)). Now, if we consider the complex conjugate we have \(\overline{(x+y\zeta _p^i) }\equiv \beta \zeta _p^{-k}a \pmod p\). Looking at \((x+y\zeta _p^i)-\zeta _p^{2k}\overline{(x+y\zeta _p^i) }\) then gives the result. </p>
 <ol class="enumerate">
 </ol>
 <div class="proof_wrapper" id="a0000000054">
@@ -345,14 +345,14 @@
   
   </div>
 </div>
-<p><div class="thm_thmwrapper" id="thm:FLT case one">
-  <div class="thm_thmheading">
-    <span class="thm_thmcaption">
+<p><div class="theorem_thmwrapper" id="theorem:FLT case one">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="thm_thmlabel">3.9</span>
+    <span class="theorem_thmlabel">3.9</span>
     <div class="thm_icons">
-    <a class="icon proof" href="sect0003.html#thm:FLT case one">#</a>
+    <a class="icon proof" href="sect0003.html#theorem:FLT case one">#</a>
     <a class="icon proof" href="sect0003.html#a0000000055"><svg  class="icon icon-cogs "><use xlink:href="symbol-defs.svg#icon-cogs"></use></svg>
 </a>
     <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
@@ -365,7 +365,7 @@
 </button>
         </header>
                 <ul class="uses">
-          <li><a href="sect0003.html#thm:FLT facts">Theorem 3.8</a></li>
+          <li><a href="sect0003.html#theorem:FLT facts">Theorem 3.8</a></li>
         </ul>
 
       </div>
@@ -373,7 +373,7 @@
 
   </div>
   </div>
-  <div class="thm_thmcontent">
+  <div class="theorem_thmcontent">
   <p>  Let \(p \geq 5\) be an prime number, \(\zeta _p\) a \(p\)-th root of unity and \(K=\mathbb {Q}(\zeta _p)\). Assume that \(p\) does not divide the size of the class group \(\operatorname{Cl}_K\). Then </p>
 <div class="displaymath" id="a0000000056">
   \[ x^p+y^p=z^p \]
@@ -394,16 +394,16 @@
 <div class="displaymath" id="a0000000057">
   \[ z^p=(x+y)(x+\zeta _py)\cdots (x+y\zeta _p^{p-1}) \]
 </div>
-<p> as ideals. Then since we know the ideals are coprime, then by lemma <a href="sect0003.html#lem: ideals mult to power">3.7</a> we have that each \((x+y\zeta _p^i)=\mathfrak {a}^p\), for \(\mathfrak {a}\) some ideal. Note that, \([\mathfrak {a}^p]=1\) in the class group. Now, since \(p\) does not divide the size of the class group we have that \([\mathfrak {a}]=1\) in the class group, so its principal. So we have \(x+y\zeta _p^i=u_i\alpha _i^p\) with \(u_i\) a unit. So by <a href="sect0003.html#thm:FLT facts">3.8</a> part \(5\) we have some \(k\) such that \(x+y\zeta _p-\zeta _p^{2k}x-\zeta _p^{2k-1} \equiv 0 \pmod p\). If \(1,\zeta _p,\zeta _p^{2k},\zeta _p^{2k-1}\) are distinct, then <a href="sect0003.html#thm:FLT facts">3.8</a> part \(4\) (which uses that \(p{\gt}3\)) says that \(p\) divides \(x,y\), contrary to our assumption. So they cannot be distinct, but checking each case leads to a contradiction, therefore there can not be any such solutions. </p>
+<p> as ideals. Then since we know the ideals are coprime, then by lemma <a href="sect0003.html#lemma: ideals mult to power">3.7</a> we have that each \((x+y\zeta _p^i)=\mathfrak {a}^p\), for \(\mathfrak {a}\) some ideal. Note that, \([\mathfrak {a}^p]=1\) in the class group. Now, since \(p\) does not divide the size of the class group we have that \([\mathfrak {a}]=1\) in the class group, so its principal. So we have \(x+y\zeta _p^i=u_i\alpha _i^p\) with \(u_i\) a unit. So by <a href="sect0003.html#theorem:FLT facts">3.8</a> part \(5\) we have some \(k\) such that \(x+y\zeta _p-\zeta _p^{2k}x-\zeta _p^{2k-1} \equiv 0 \pmod p\). If \(1,\zeta _p,\zeta _p^{2k},\zeta _p^{2k-1}\) are distinct, then <a href="sect0003.html#theorem:FLT facts">3.8</a> part \(4\) (which uses that \(p{\gt}3\)) says that \(p\) divides \(x,y\), contrary to our assumption. So they cannot be distinct, but checking each case leads to a contradiction, therefore there can not be any such solutions. </p>
 
   </div>
 </div>
-<p><div class="thm_thmwrapper" id="FLT regular case">
-  <div class="thm_thmheading">
-    <span class="thm_thmcaption">
+<p><div class="theorem_thmwrapper" id="FLT regular case">
+  <div class="theorem_thmheading">
+    <span class="theorem_thmcaption">
     Theorem
     </span>
-    <span class="thm_thmlabel">3.10</span>
+    <span class="theorem_thmlabel">3.10</span>
     <div class="thm_icons">
     <a class="icon proof" href="sect0003.html#FLT regular case">#</a>
     <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
@@ -416,7 +416,7 @@
 </button>
         </header>
                 <ul class="uses">
-          <li><a href="sect0003.html#thm:FLT case one">Theorem 3.9</a></li>
+          <li><a href="sect0003.html#theorem:FLT case one">Theorem 3.9</a></li>
         </ul>
 
       </div>
@@ -424,7 +424,7 @@
 
   </div>
   </div>
-  <div class="thm_thmcontent">
+  <div class="theorem_thmcontent">
   <p>  Let \(p \geq 5\) be an prime number, \(\zeta _p\) a \(p\)-th root of unity and \(K=\mathbb {Q}(\zeta _p)\). Assume that \(p\) does not divide the size of the class group \(\operatorname{Cl}_K\). Then </p>
 <div class="displaymath" id="a0000000058">
   \[ x^p+y^p=z^p \]
